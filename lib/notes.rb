@@ -1,0 +1,11 @@
+require "thor"
+require "git"
+require "mail"
+require "github_api"
+require "jiralicious"
+require "pivotal-tracker"
+
+require "notes/version"
+require "notes/cli"
+require "notes/helper"
+require "notes/configuration"

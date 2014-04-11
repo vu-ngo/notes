@@ -1,0 +1,86 @@
+PATH
+  remote: .
+  specs:
+    notes (1.0.3)
+      git
+      github_api
+      jiralicious
+      mail
+      pivotal-tracker
+      thor
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.5)
+    builder (3.2.2)
+    crack (0.1.8)
+    faraday (0.8.8)
+      multipart-post (~> 1.2.0)
+    git (1.2.6)
+    github_api (0.10.2)
+      addressable
+      faraday (~> 0.8.7)
+      hashie (>= 1.2)
+      multi_json (~> 1.4)
+      nokogiri (~> 1.6.0)
+      oauth2
+    happymapper (0.4.1)
+      libxml-ruby (~> 2.0)
+    hashie (2.0.5)
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    httpauth (0.2.0)
+    jiralicious (0.4.0)
+      crack (~> 0.1.8)
+      hashie (>= 1.1)
+      httparty (>= 0.10, < 0.12.0)
+      json (>= 1.6, < 1.9.0)
+    json (1.8.0)
+    jwt (0.1.8)
+      multi_json (>= 1.5)
+    libxml-ruby (2.7.0)
+    mail (2.5.4)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.25)
+    mini_portile (0.5.1)
+    multi_json (1.8.1)
+    multi_xml (0.5.5)
+    multipart-post (1.2.0)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
+    nokogiri-happymapper (0.5.7)
+      nokogiri (~> 1.5)
+    oauth2 (0.9.2)
+      faraday (~> 0.8)
+      httpauth (~> 0.2)
+      jwt (~> 0.1.4)
+      multi_json (~> 1.0)
+      multi_xml (~> 0.5)
+      rack (~> 1.2)
+    pivotal-tracker (0.5.12)
+      builder
+      crack
+      happymapper (>= 0.3.2)
+      nokogiri (>= 1.4.3)
+      nokogiri (>= 1.5.5)
+      nokogiri-happymapper (>= 0.5.4)
+      rest-client (~> 1.6.0)
+    polyglot (0.3.3)
+    rack (1.5.2)
+    rake (10.0.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    thor (0.18.1)
+    treetop (1.4.15)
+      polyglot
+      polyglot (>= 0.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  notes!
+  rake
